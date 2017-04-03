@@ -20,7 +20,11 @@ public class PermissionNameSet {
         return newset;
     }
 
+<<<<<<< HEAD
     public static PermissionNameSet from(PermissionNameSet existing, PermissionName... toAdd) {
+=======
+    public static PermissionNameSet from(PermissionNameSet existing, PermissionName toAdd) {
+>>>>>>> master
         EnumSet<PermissionName> pns;
         if (existing == null) {
             pns = newSetWith(null, toAdd);
